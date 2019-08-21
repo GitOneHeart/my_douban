@@ -1,0 +1,43 @@
+{
+  "name": "mint-ui-project",
+  "version": "1.0.0",
+  "description": "webpack.config.js\r package.json 及配置选项\r webpakc.publish.config.js",
+  "main": "main.js",
+  "dependencies": {
+    "antd": "^3.22.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^2.11.3"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.0",
+    "babel-preset-react": "^6.24.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "pub": "webpack --config webpack.publish.config.js"
+  },
+  "keywords": [],
+  "author": "QGS",
+  "license": "ISC"
+}

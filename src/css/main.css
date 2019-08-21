@@ -1,0 +1,35 @@
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+  }
+  .movieList {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+  .movieLi {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    transition: all .5s;
+    -webkit-transition: all .5s; /* Safari */
+  }
+  .movieLi:hover {
+    box-shadow: 10px 10px 5px #cccccc;
+    transition: all .5s;
+    cursor: pointer;
+    transform: scale(1.1);
+    -ms-transform:scale(1.1);     /* IE 9 */
+    -moz-transform:scale(1.1);     /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari 和 Chrome */
+    -o-transform:scale(1.1);
+  }
